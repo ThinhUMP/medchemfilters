@@ -24,7 +24,7 @@ To install and set up `medchemfilters`, follow these steps:
 For interactive use, such as in a Jupyter notebook, follow this example to utilize the `MCFilter`:
 
 ```python
-from medchemfilters.ADMET.filters import MCFilter
+from medchemfilters.ADMET.mc_filter import MCFilter
 
 # Initialize MCFilter with default settings
 filter = MCFilter()
